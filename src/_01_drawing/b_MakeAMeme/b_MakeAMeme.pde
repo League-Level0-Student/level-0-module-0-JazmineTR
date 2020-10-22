@@ -18,14 +18,17 @@ void setup() {
   // 5. Write the message "TESTED MY PROGRAM" at the top of the meme
   //    Use the text() command for this
    textSize(50);
-   text("Tested my program",15,45);
-  
+   
+    
   // 6. Now make the message bigger so that it fills the width of the sketch
   //    Use the textSize() command for this and put it BEFORE you write the text!
   
 }
 
 void draw() {
+   if(mousePressed){
+   text("Tested my program",15,45);
+    }
 
   // 7. Write the messsage "IT WORKED FIRST TIME" at the bottom of the meme
   fill(#F00F0F);
