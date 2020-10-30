@@ -20,17 +20,18 @@ public class FlamingNinjaStar {
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
 		int count = 0;
-		rob.setPenColor(128,0,0);
+	
 	       //  LOOP. Start a while loop to repeat all of the code below ONE time (we will change this later)
 				while(count < 25) {
+					rob.setPenColor(128,0,0);
 					rob.turn(360/8);
 					rob.move(64);
 					rob.turn(-40);
-					rob.setPenColor(0,0,0);
 					rob.move(flameSize);
 					rob.turn(170);
 					rob.move(flameSize);
 					rob.turn(64);
+					rob.setPenColor(0,0,0);
 					rob.move(baseSize);
 					count+=1;
 				}
