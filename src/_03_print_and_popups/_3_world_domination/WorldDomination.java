@@ -14,7 +14,7 @@ public class WorldDomination {
 			JOptionPane.showMessageDialog(null,"You will rule the world" );
 		}
 		else {
-			JOptionPane.showMessageDialog(null, "Sign up for class at The League");
+			JOptionPane.showMessageDialog(null, "Sign up for classes at The League");
 		}
 		// 3. Otherwise, tell them to sign up for classes at The League.
 
