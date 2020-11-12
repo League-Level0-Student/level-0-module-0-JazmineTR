@@ -20,15 +20,15 @@ public class AwesomeOrNot {
 		JOptionPane.showMessageDialog(null,awesomeornah + " is awesome!");
 		}
 		
-		if(ran_int1 <= 1) {
+		else if(ran_int1 <= 1) {
 			JOptionPane.showMessageDialog(null,awesomeornah + " is ok.");
 		}
 		
-		if(ran_int1 <= 2) {
+		else if(ran_int1 <= 2) {
 			JOptionPane.showMessageDialog(null,awesomeornah + " is boring.");
 		}
 		
-		if(ran_int1 <= 3) {
+		else if(ran_int1 <= 3) {
 			JOptionPane.showMessageDialog(null,awesomeornah + " is not the best thing you could have came up with.");
 		}
 	}
