@@ -81,7 +81,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		
 		if (started) {
-		
+		 if(mouseColor == background) 
 		scare();
 		
 			//9. If the mouse falls off the path (which means it is on the background color)
@@ -90,7 +90,8 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 			//13.  If the mouse is on the end color, pop up a message to tell them they won!
 			//    (you will need to get the number of the END COLOR by moving the mouse over it)
 		int endcolor = -3069440;
-					
+		if(mouseColor == endcolor)
+				JOptionPane.showMessageDialog(null," You Won!" );	
 			
 		}	
 	}
@@ -115,7 +116,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 
 		//12. Find a scary image and drop it into the _04_amazing_games._1_scary_maze package. 
 		//    Use the showScaryImage method below and send it the name of your picture file
-		
+		showScaryImage("standardMaze.png");
 		
 	}
 	
